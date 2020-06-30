@@ -1,0 +1,44 @@
+/* Try to make some random top navigation bar thing */
+
+.nav {
+    background-color: grey;
+    /*overflow: hidden;
+    padding: 10px 40px;*/
+
+    margin: 0 0 1em 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 1em 2.5em;
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: darkgrey;
+    /*color: black;*/
+}
+
+.nav a:active {
+    background-color: lightpink;
+    color: white;
+}
+
+/* Styling of the main table */
+
+#mainTable {
+    margin-left: auto;
+    margin-right: auto;  
+    padding: 1em;
+    text-align: left;
+}
+
+#mainTable th, td {
+    padding: 0.5em;
+}
+
