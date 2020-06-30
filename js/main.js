@@ -1,6 +1,9 @@
+/* Now THIS is javascript */
+
+
 //var mydata = [{"foo" : "text", "bar" : 30}, {"foo" : "else", "bar" : 21}];
 
-var mydata = [{"name": "The Master and Margarita", "author": "Mikhail Bulgakov", "genre": "russian", "date": 2019, "review" : "Took a while, classic."}];
+var mydata = [{"Name": "The Master and Margarita", "Author": "Mikhail Bulgakov", "Genre": "russian", "Date": 2019, "Review" : "Took a while, classic."}];
 //Cryptonomicon : Neal Stephenson : scifi : 2018 : Difficult to put down, Yamamoto features.
 //A Canticle for Leibowitz :  : scifi :  : Lots of Latin, often difficult to parse, quite engrossing. Final section perhaps a little less polished than the first two.
 
@@ -36,10 +39,7 @@ function getPage() {
 }
 
 function load() {
-    //alert(mydata.length);
-
     let table = document.getElementById('mainTable');
-    
 
     generateTable(table, mydata)
     generateTableHead(table, Object.keys(mydata[0]))
