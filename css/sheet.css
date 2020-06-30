@@ -1,5 +1,9 @@
 /* Try to make some random top navigation bar thing */
 
+html {
+    font-family: Helvetica, serif;
+}
+
 .nav {
     background-color: grey;
     /*overflow: hidden;
